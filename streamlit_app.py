@@ -13,5 +13,5 @@ textColor="#FFFFFF"
 font="monospace"
 """)
 
-number = st.sidebar.slider('Select a number:', 0, 10, 5)
+number = st.sidebar.slider('Confidence Threshold:', 0.1, 1.0, 0.5)
 st.write('Selected number from slider widget is:', number)
