@@ -1,4 +1,7 @@
 import streamlit as st
+import pymongo
+from pymongo import MongoClient
+
 
 st.title('Customizing the theme of Streamlit apps')
 
